@@ -27,6 +27,17 @@ for i in {1..3}; do
   display_login_history
 done
 
+#!/bin/bash
+
+# Stretch Goal
+function greet_user() {
+  local username="$1"  # Store the argument in a local variable
+  echo "Hello, $username! Ops Functions."
+}
+
+greet_user "Ray"
+Hello, Ray! Ops Functions.
+
 
 
 

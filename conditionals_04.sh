@@ -10,10 +10,10 @@
 
 #!/bin/bash
 
-files_and_dirs=("array.txt" "directory1" "conditional.txt")
+files_and_dirs=("array.txt" "directory1" "conditional.txt")  # The array
 
-for item in "${files_and_dirs[@]}"; do
-    if [ -e "$item" ]; then
+for item in "${files_and_dirs[@]}"; do # The loop
+    if [ -e "$item" ]; then # The Conditional
         echo "$item exists."
     else
         if [[ "$item" == *.* ]]; then

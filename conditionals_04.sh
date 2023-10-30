@@ -8,6 +8,8 @@
 
 # Purpose: Bash Script Conditionals
 
+# Resources: https://linuxhint.com/category/bash-programming/ and ChatGPT
+
 #!/bin/bash
 
 files_and_dirs=("array.txt" "directory1" "conditional.txt")  # The array

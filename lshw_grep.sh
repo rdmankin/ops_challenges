@@ -24,3 +24,6 @@ Size:
   Size: 
   Description: 
   Physical ID: 
+
+  ### Resources: Bard, https://www.howtoforge.com/linux-lshw-command/, 
+  ### https://careerkarma.com/blog/linux-grep-command/
